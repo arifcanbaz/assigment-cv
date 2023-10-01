@@ -113,6 +113,9 @@ section h2{
     font-size: 20px;
     text-decoration: none;
 }
+.social a:hover{
+    color: red;
+}
 .message{
     text-align: center;
     /* border: 2px solid yellow; */
@@ -132,6 +135,7 @@ section h2{
     padding: 10px;
     background-color: #131E25;
     border:2px solid #726958;
+    color: white;
 
 }
 .message input::placeholder{
@@ -143,6 +147,7 @@ section h2{
     width: 100%;
     background-color: #131E25;
     border:2px solid #726958;
+    color: white;
 
 }
 .message textarea::placeholder{
