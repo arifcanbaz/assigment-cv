@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131E25;
+    background-attachment: fixed;
+    
+}
+
+header{
+    /* background-color: #131E25; */
+    /* border: red solid 2px; */
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 24px;
+}
+
+nav.sticky{
+    
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+nav.sticky li {
+    display: inline-block;
+    background-color: #D2B48C;
+    width: 100px;
+    font-size: 16px;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    
+}
+
+nav.sticky li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav.sticky li:hover{
+    text-decoration: none;
+    background-color: #726958;
+    cursor: pointer;
+    
+}
+nav.sticky li:hover a{
+    color: red;
+    cursor: pointer;
+}
+
+.hello{
+    /* border: 2px solid yellow; */
+    color: #FFEBCD;
+    font-family: 'Rampart One', cursive;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    height: 500px;
+}
+
+.projects{
+    color: white;
+    /* border: 2px solid orchid; */
+    text-align: center;
+    margin-top: 10rem;
+    font-family: 'Pixelify Sans', cursive;
+
+}
+.projects h2{
+    padding: 2rem;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.projects img{
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    padding: 2px;
+}
+.projects img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transform: scale(0.8);
+}
+.social-box{
+    /* border: 2px solid red; */
+    color: white;
+    text-align: center;
+    height: 150px;
+}
+section h2{
+    font-family: 'Pixelify Sans', cursive;
+    padding: 2rem;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.social a {
+    /* border: 2px solid yellowgreen; */
+
+
+    color: #D2B48C;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.message{
+    text-align: center;
+    /* border: 2px solid yellow; */
+    width: 40%;
+    margin: auto;
+
+}
+.message p {
+    color: white;
+    font-family: 'Pixelify Sans', cursive;
+    padding: 2rem;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.message input{
+    width: 100%;
+    padding: 10px;
+    background-color: #131E25;
+    border:2px solid #726958;
+
+}
+.message input::placeholder{
+    text-align: center;
+    
+
+}
+.message textarea{
+    width: 100%;
+    background-color: #131E25;
+    border:2px solid #726958;
+
+}
+.message textarea::placeholder{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+.message button{
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient( 109.6deg,  rgba(103,30,117,1) 11.2%, rgba(252,76,2,1) 91.1% );
+    color: #FFEBCD;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 25px;
+
+}
+.top{
+    color: white;
+    font-size: 2rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #D2B48C;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+.top a{
+    text-decoration: none;
+    color: white;
+}
+.top a:hover{
+    color: #131E25;
+}
+button.before-after:hover::after{
+    content: '✅';
+}
+
+
+
+
